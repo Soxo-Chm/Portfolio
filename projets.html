@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Syne:wght@800&family=Space+Mono&display=swap" rel="stylesheet">
+    <title>Mes Projets | Solina Cheam</title>
+</head>
+<body>
+
+    <div class="background-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <img src="Images/Logo_Solina_Cheam.jpg" alt="Solina Cheam Logo">
+            </a>
+            <div class="navbar">
+                <a href="index.html">Accueil</a>
+                <a href="index.html#apropos">À propos</a>
+                <a href="#" class="active">Projets</a>
+                <a href="CV_Solina_Cheam.pdf" target="_blank" class="nav-cta">CV</a>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <div class="navbar-mobile">
+        <a href="index.html">Accueil</a>
+        <a href="index.html#apropos">À propos</a>
+        <a href="#" class="active">Portfolio</a>
+        <a href="CV_Solina_Cheam.pdf" target="_blank" class="nav-cta">CV</a>
+    </div>
+
+    <main class="portfolio-page">
+        <header class="portfolio-header">
+            <h1>Tous les projets</h1>
+            <p class="subtitle">Une plongée dans mon univers graphique et créatif.</p>
+        </header>
+
+        <section class="container">
+            <div class="projects-grid">
+                
+                <article class="project-card">
+                    <figure class="project-image">
+                        <img src="Images/projet-branding.jpg" alt="Projet">
+                        <figcaption>
+                            <h3>Nom du Projet</h3>
+                            <p class="tags">Branding • 2024</p>
+                        </figcaption>
+                    </figure>
+                    <div class="project-info">
+                        <p>Description courte du projet pour donner envie de cliquer.</p>
+                        <a href="details.html?id=branding" class="btn btn-link">Découvrir →</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <figure class="project-image">
+                        <img src="Images/EcoWork.png" alt="EcoWork">
+                        <figcaption>
+                            <h3>EcoWork</h3>
+                            <p class="tags">Identité • 2024</p>
+                        </figcaption>
+                    </figure>
+                    <div class="project-info">
+                        <p>Design d'une plateforme de coworking écologique.</p>
+                        <a href="details.html?id=ecowork" class="btn btn-link">Découvrir →</a>
+                    </div>
+                </article>
+            </div>
+            <div class="pagination-container">
+                <div class="pagination" id="pagination">
+                </div>
+            </div>
+        </section>
+
+        <section class="back-home">
+            <a href="index.html" class="btn btn-primary">← Retour à l'accueil</a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 Solina Cheam • <em>Imaginer l'invisible, designer le visible</em></p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
