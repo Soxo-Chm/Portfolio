@@ -7,17 +7,17 @@ const listeProjets = {
         mainImg: "Images/EcoWork.png",
         tools: "Figma, Illustrator",
         role: "Direction Artistique",
-        gallery: ["Images/EcoWork.png", "Images/Main_Character.png"]
+        gallery: ["Images/EcoWork.png", "Images/Logo_Solina_Cheam.png"]
     },
     "branding": {
-        title: "Nom du Projet Branding",
+        title: "Be The Main Character",
         category: "Branding • 2024",
         lead: "Une approche minimaliste des formes.",
         description: "Travail sur la typographie et le vide...",
-        mainImg: "Images/projet-branding.jpg",
+        mainImg: "Images/Main_Character.png",
         tools: "InDesign, Photoshop",
         role: "Graphic Design",
-        gallery: ["Images/projet-branding.jpg", "Images/Logo_Solina_Cheam.jpg"]
+        gallery: ["Images/Main_Character.png", "Images/Logo_Solina_Cheam.jpg"]
     }
 };
 
